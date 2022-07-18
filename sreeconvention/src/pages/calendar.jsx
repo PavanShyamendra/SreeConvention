@@ -7,7 +7,7 @@ const CalendarPage = () => {
 
     const [date, setDate] = useState(new Date())
   return (
-    <div>
+    <div className="container items-center">
         <Calendar onChange={setDate} value={date}/>
     </div>
   )
