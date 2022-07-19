@@ -6,9 +6,13 @@ import Navbar from './navBar'
 const HomeScreen = () => {
   return (
 
-    <div >
-        <Navbar />
-        <p className='inline'>Working</p>
+    <div className='bg-main min-h-screen'>
+      <div className='flex justify-center'>
+        <header className='font-sans text-8xl my-14 p-8 text-light'>Sree Convention</header>
+      </div>
+      <div className='flex justify-center'>
+        <Navbar/>
+      </div>
     </div>
   )
 }

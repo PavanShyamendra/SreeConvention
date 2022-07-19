@@ -3,20 +3,19 @@ import { useLocation, Link } from 'react-router-dom'
 
 function Navbar(){
     return(
-        <div className="fixed top-0 flex flex-row w-screen h-16 flex bg-gray-900 text-cyan-50 p-4 shadow-lg">
-            <NavIcon current = {"About"}/>
+        <div className="justify-center flex flex-col">
+            <NavIcon current = {"Explore"}/>
             <NavIcon current = {"Locate"}/>
             <NavIcon current = {"Contact"}/>
             <NavIcon current = {"Availability"}/>
             <NavIcon current = {"Caterers"}/>
-            <NavIcon current = {"Help"}/>
         </div>
     )
 }
 
 const NavIcon = ({current}) =>(
-    <div className = "navIcon text-align-center px-10" >
-       <i>{current}</i>
+    <div className = "text-align-center p-4 " >
+       <button className = "text-main w-40 bg-light p-2 ring-2 ring-other rounded-lg text-xl" >{current}</button>
     </div>
 )
 
