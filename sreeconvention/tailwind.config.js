@@ -8,6 +8,8 @@ module.exports = {
         light: '#FCFBFB',
         main: '#FBA1A1',
         other: '#8F1746',
+        contactCard :'#E97979',
+        werejust :'#D88181',
       },
     },
   },

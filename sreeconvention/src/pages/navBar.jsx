@@ -15,7 +15,7 @@ function Navbar(){
 
 const NavIcon = ({current}) =>(
     <div className = "text-align-center p-4 " >
-       <button className = "text-main w-40 bg-light p-2 ring-2 ring-other rounded-lg text-xl" >{current}</button>
+       <button className = "text-other hover:text-white w-40 bg-light hover:bg-other p-2 ring-2 ring-other rounded-lg text-xl" >{current}</button>
     </div>
 )
 
