@@ -25,8 +25,11 @@ const CalendarPage = () => {
     fetchBooks()
   },[])
 
-    console.log(date.at(0).booked)
-    const allDates = new Set(["Sat Jul 16 2022"])
+   
+    const allDates = new Set()
+    for(let i = 0;i<date.length;i++){
+      allDates.add(date.at(i).booked);
+    }
     const isHighlight = useCallback((dat) => {
       console.log(dat)
       if (allDates.has(dat.toDateString())) {
