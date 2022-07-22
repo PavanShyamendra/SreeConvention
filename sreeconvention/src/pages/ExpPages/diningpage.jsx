@@ -51,7 +51,7 @@ const DiningPage = ()=>{
                     </div>
                     <div className="flex justify-center ml-24 p-2 text-well ">
                         <p className="text-center text-4xl font-serif">
-                             and people are always right.
+                             and people are always right
                         </p>
                     </div>
                     
