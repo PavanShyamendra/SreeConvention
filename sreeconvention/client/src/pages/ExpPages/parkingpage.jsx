@@ -37,16 +37,16 @@ const ParkingPage = ()=>{
                 </div>
                 <div className="basis-1/2 flex flex-col w-1/2 item-center justify-center">
                     <div className="flex justify-start ml-36 p-2 text-parkingfont ">
-                        <p className="text-center text-5xl font-serif justify-end ">Here Comes</p>
+                        <p className="text-center text-5xl font-serif justify-end ">Com'on</p>
                     </div>
-                    <div className="flex justify-start ml-36 p-2 text-diningfont ">
-                        <p className="text-center text-6xl font-serif font-bold">
-                            The
+                    <div className="flex justify-start ml-36 p-2 " style ={{color: "#F2D7D9"}}>
+                        <p className="text-center text-5xl font-serif font-bold">
+                            Let's Bring in some
                         </p>
                     </div>
-                    <div className="flex justify-start ml-36 p-2 text-diningfont ">
+                    <div className="flex justify-start ml-36 p-2" style ={{color: "#F2D7D9"}}>
                         <p className="text-center text-6xl font-serif font-bold">
-                            Dining.
+                            Vehicles
                         </p>
                     </div>
                     
