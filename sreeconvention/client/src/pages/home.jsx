@@ -2,8 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import Navbar from './navBar'
-import BckImg from '../assets/icons/bgimage.jpeg'
+import BckImg from '../assets/icons/bgimage.JPG'
 import ContactsPage from './contacts'
+import ExplorePage from './explore'
 
 const HomeScreen = () => {
   return (
@@ -21,8 +22,8 @@ const HomeScreen = () => {
           <div className='flex justify-center'>
             <Navbar/>
           </div>
-          
         </div>
+        <ExplorePage/>
         <ContactsPage/>
      </div>
     
