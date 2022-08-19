@@ -49,7 +49,7 @@ const CalendarPage = () => {
 
     return (
       <div className='bg-main flex items-start justify-center min-h-screen ' >
-        <Calendar isHighlight={isHighlight} isMultiSelector value={value} onChange={onChange}  size={500} fontSize = {30} className = 'p-4 mt-20' />
+        <Calendar isHighlight={isHighlight} size={500} fontSize = {30} className = 'p-4 mt-20' />
       </div>
     )
 }
