@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SreeConvention/static/css/main.55c253f0.css",
-    "main.js": "/SreeConvention/static/js/main.fe56b4e0.js",
+    "main.css": "/SreeConvention/static/css/main.d4002715.css",
+    "main.js": "/SreeConvention/static/js/main.9999be1a.js",
     "static/media/parking2.JPG": "/SreeConvention/static/media/parking2.afb8596e3a03c273c9f3.JPG",
     "static/media/KC.JPG": "/SreeConvention/static/media/KC.0ffd1c5ad3cfc18b52d2.JPG",
     "static/media/dining2.JPG": "/SreeConvention/static/media/dining2.bd1b63988bba42254162.JPG",
@@ -12,11 +12,11 @@
     "static/media/hall1.JPG": "/SreeConvention/static/media/hall1.b5aca4b9c185af3fba20.JPG",
     "static/media/dining1.jpeg": "/SreeConvention/static/media/dining1.5ef866a522119953d367.jpeg",
     "index.html": "/SreeConvention/index.html",
-    "main.55c253f0.css.map": "/SreeConvention/static/css/main.55c253f0.css.map",
-    "main.fe56b4e0.js.map": "/SreeConvention/static/js/main.fe56b4e0.js.map"
+    "main.d4002715.css.map": "/SreeConvention/static/css/main.d4002715.css.map",
+    "main.9999be1a.js.map": "/SreeConvention/static/js/main.9999be1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.55c253f0.css",
-    "static/js/main.fe56b4e0.js"
+    "static/css/main.d4002715.css",
+    "static/js/main.9999be1a.js"
   ]
 }
